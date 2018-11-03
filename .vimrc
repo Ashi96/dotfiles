@@ -4,12 +4,12 @@ set number
 set incsearch
 "括弧を入力したときに対応する括弧を表示
 set visualbell
-"Tabを半角スペースに
 "Makefileのみスペースではなくタブにする
 let _curfile=expand("%:r")
 if _curfile == 'Makefile'
   set noexpandtab
 endif
+"Tabを半角スペースに
 set expandtab
 "タブをスペース何個分にするか（行頭以外）
 set tabstop=2
